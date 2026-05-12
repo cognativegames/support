@@ -1,0 +1,86 @@
+name: Bug Report
+description: Report something that isn't working correctly
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      description: Which game are you reporting a bug for?
+      options:
+        - QRuppets
+        - QRitters
+        - QRobots
+        - QueeRs
+        - QRackheads
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      description: What version of the app are you running? (found in Settings)
+      placeholder: "e.g. 1.0.24"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: What device and OS version are you using?
+      placeholder: "e.g. iPhone 15 Pro, iOS 18.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug you encountered
+      placeholder: Tell us what you saw
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Describe what should have happened instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we trigger this bug?
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+      description: Paste any error messages, attach screenshots, or screen recordings
+      render: shell
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues and did not find this bug already reported
+          required: true

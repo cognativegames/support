@@ -1,0 +1,45 @@
+name: Other
+description: Questions, feedback, or anything else
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Not a bug or feature request? Use this form.
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      description: Which game is this about?
+      options:
+        - QRuppets
+        - QRitters
+        - QRobots
+        - QueeRs
+        - QRackheads
+        - General / Not applicable
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Question
+        - Feedback
+        - Purchase / IAP Issue
+        - Account / Login Issue
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: Your message
+      description: What would you like to tell us?
+    validations:
+      required: true
