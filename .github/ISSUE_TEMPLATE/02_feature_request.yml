@@ -17,8 +17,6 @@ body:
         - QRuppets
         - QRitters
         - QRobots
-        - QueeRs
-        - QRackheads
         - All / General
     validations:
       required: true
