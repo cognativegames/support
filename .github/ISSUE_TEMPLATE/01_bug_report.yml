@@ -17,6 +17,7 @@ body:
         - QRuppets
         - QRitters
         - QRobots
+        - Introspection
     validations:
       required: true
 

@@ -1,7 +1,5 @@
 name: Other
 description: Questions, feedback, or anything else
-title: ""
-labels: []
 body:
   - type: markdown
     attributes:
@@ -17,6 +15,7 @@ body:
         - QRuppets
         - QRitters
         - QRobots
+        - Introspection
         - General / Not applicable
     validations:
       required: false

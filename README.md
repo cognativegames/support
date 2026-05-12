@@ -4,15 +4,16 @@ Central hub for filing support tickets across all CogNative Games products.
 
 ## Supported Games
 
-| Game | Bundle ID | Status |
-|------|-----------|--------|
-| QRuppets | `com.cognativegames.qruppets` | Active |
-| QRitters | `com.cognativegames.qritters` | Active |
-| QRobots | `com.cognativegames.qrobots` | Active |
+| Game          | Platform    | Bundle ID                          | Status |
+|---------------|-------------|------------------------------------|--------|
+| QRuppets      | iOS/Android | `com.cognativegames.qruppets`      | Active |
+| QRitters      | iOS/Android | `com.cognativegames.qritters`      | Beta   |
+| QRobots       | iOS/Android | `com.cognativegames.qrobots`       | Beta   |
+| Introspection | desktop     | `com.cognativegames.introspection` | Alpha  |
 
 ## How to Submit a Ticket
 
-1. Click the **Issues** tab at the top of this page
+1. Click the **[Issues](https://github.com/cognativegames/support/issues)** tab at the top of this page
 2. Click **New Issue**
 3. Choose the template that matches your request:
    - **Bug Report**: Something isn't working right
